@@ -1,2 +1,12 @@
-@import './sections/header.scss';
+@import "./utilit/var";
+@import "./utilit/reset";
+@import "./components/container";
+@import "./components/visually-hidden";
+@import "./sections/header";
 @import "./sections/hero";
+@import "./sections/benefits";
+@import "./sections/work";
+@import "./sections/team";
+@import "./sections/clients";
+@import "./sections/footer";
+@import "./sections/modal";
