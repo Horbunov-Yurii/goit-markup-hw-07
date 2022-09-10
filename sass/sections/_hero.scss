@@ -1,5 +1,5 @@
 
-.section-hero {
+.section__hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -7,7 +7,7 @@
 }
 
 
-.title-hero {
+.title__hero {
   
   max-width: 696px;
   margin:0 auto ;
@@ -22,7 +22,7 @@
 }
 
 
-.hero-button {
+.hero__button {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: #188CE8;
 }

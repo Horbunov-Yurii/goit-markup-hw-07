@@ -1,9 +1,9 @@
 
-.work-section {
+.work__section {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -12,11 +12,11 @@
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
 }
 
-.work-text-posicion {
+.work__text__posicion {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -29,7 +29,7 @@
 }
 
 
-.work-text {
+.work__text {
    font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -38,11 +38,11 @@
   color: #FFFFFF;
 }
 
-.work-item {
+.work__item {
   margin-right: 30px;
  position: relative;
 }
 
-.work-item:last-child {
+.work__item:last-child {
   margin-right: 0;
 }

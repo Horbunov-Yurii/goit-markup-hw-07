@@ -9,11 +9,11 @@ footer .container {
   display: flex;
 }
 
-.socials-block {
+.socials__block {
   margin-left: 70px;
 } 
 
-.logo-footer {
+.logo__footer {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -22,24 +22,24 @@ footer .container {
   color: var(--main-background-color);
 }
 
-.web-color {
+.web__color {
   color: var(--hover-color);
 }
 
-.footer-nav {
+.footer__nav {
   margin-top: 20px;
 }
 
-.footer-mailto {
+.footer__mailto {
   margin-top: 9px;
   margin-bottom: 9px;
 }
 
-.footer-mailto:last-child {
+.footer__mailto:last-child {
   margin-bottom: 0;
 }
 
-.footer-contact {
+.footer__contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -47,7 +47,7 @@ footer .container {
   color: var(--footer-contact);
 }
 
-.footer-address {
+.footer__address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -55,7 +55,7 @@ footer .container {
   color: var(--main-background-color);
 }
 
-.social-title {
+.social__title {
   font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -65,19 +65,19 @@ color: #FFFFFF;
 margin-bottom: 20px;
 }
 
-.footer-socials {
+.footer__socials {
   display: flex;
 }
 
-.socials-item {
+.socials__item {
   margin-right: 10px;
 }
 
-.socials-item:last-child {
+.socials__item:last-child {
 margin-right: 0;
 }
 
-.socials-link {
+.socials__link {
  border-radius: 50%;
   background-color:rgba(255, 255, 255, 0.1);
   padding: 12px;
@@ -88,21 +88,21 @@ margin-right: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   background-color: #2196F3;
   fill: #ffffff
 }
 
-.footer-form {
+.footer__form {
   margin-left: 93px;
 }
 
-.footer-form form {
+.footer__form form {
   display: flex;;
 }
 
-.footer-form-title {
+.footer__form__title {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -112,7 +112,7 @@ color: #FFFFFF;
 margin-bottom: 20px;
 }
 
-.footer-input {
+.footer__input {
 margin-right: 12px;
 padding-left: 16px;
 width: 358px;
@@ -124,12 +124,12 @@ background-color: #2F303A;
 color: var(--main-background-color);
 }
 
-.footer-input:hover,
-.footer-input:focus {
+.footer__input:hover,
+.footer__input:focus {
   border-color: var(--hover-color);
 }
 
-.footer-button {
+.footer__button {
 width: 200px;
 height: 50px;
 background-color: #2196F3;
@@ -146,7 +146,7 @@ color: #FFFFFF;
   justify-content: center;
 }
 
-.footer-send {
+.footer__send {
   width: 24px;
   height: 24px;
   background-color: var(--hover-color);
