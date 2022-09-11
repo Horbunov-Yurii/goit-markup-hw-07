@@ -9,10 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="./css/main.min.css">
   
   </head>
@@ -36,21 +36,21 @@
             </li>
           </ul>
         </nav>
-        <ul class="contact__list">
-          <li class="contact__item">
-            <a href="mailto:info@devstudio.com" class="contact__header">
-              <svg class="contact__icon" width="16" height="12">
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
-              <span class="contact__text">info@devstudio.com</span>
+              <span class="contacts__text">info@devstudio.com</span>
             </a>
           </li>
-          <li class="contact__item">
-            <a href="tel:+380961111111" class="contact__header">
-              <svg class="contact__icon" width="10" height="12">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link">
+              <svg class="contacts__icon" width="10" height="12">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
-              <span class="contact__text">+38 096 111 11 11</span>
+              <span class="contacts__text">+38 096 111 11 11</span>
             </a>
           </li>
         </ul>
@@ -59,16 +59,16 @@
     <!-- основной контент -->
     <main>
       <!-- секция герой -->
-      <section class="section__hero">
+      <section class="hero">
         <div class="container">
-          <h1 class="title__hero">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero__button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
       <!-- почему мы -->
-      <section class="benefits__section">
+      <section class="benefits">
         <div class="container">
           <h2 class="benefits__uptitle visually-hidden">Почему мы</h2>
           <ul class="benefits__list">
@@ -123,7 +123,7 @@
         </div>
       </section>
       <!-- чем мы занимаемся -->
-      <section class="work__section">
+      <section class="work">
         <div class="container">
           <h2 class="work__title">Чим ми займаємося</h2>
           <ul class="work__list">
@@ -161,7 +161,7 @@
         </div>
       </section>
       <!-- наша команда -->
-      <section class="team__section">
+      <section class="team">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
@@ -174,7 +174,7 @@
               <div class="team__card">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__function">Product Designer</p>
-                <ul class="team__social">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -221,7 +221,7 @@
               <div class="team__card">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__function">Frontend Developer</p>
-                <ul class="team__social">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link"
                       ><svg class="social__icon" width="20" height="20">
@@ -264,7 +264,7 @@
               <div class="team__card">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__function">Marketing</p>
-                <ul class="team__social">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link"
                       ><svg class="social__icon" width="20" height="20">
@@ -311,7 +311,7 @@
               <div class="team__card">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p class="team__function">UI Designer</p>
-                <ul class="team__social">
+                <ul class="social">
                   <li class="social__item">
                     <a href="#" class="social__link"
                       ><svg class="social__icon" width="20" height="20">
@@ -354,7 +354,7 @@
 
         <!-- наши клиенты -->
       </section>
-      <section class="clients__section">
+      <section class="clients">
         <div class="container">
           <h2 class="clients__title">Постійні клієнти</h2>
           <ul class="clients__list">
@@ -411,32 +411,32 @@
           <a href="/" class="logo__footer"
             ><span class="web__color">Web</span>Studio
           </a>
-          <address class="footer__nav">
+          <address class="footer-nav">
             <a
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
               target="_blank"
               rel="noopener noreferrer"
-              class="footer__address"
+              class="footer-nav__address"
               >м. Київ, пр-т Лесі Українки, 26
             </a>
 
             <ul id="contacts">
-              <li class="footer__mailto">
-                <a href="mailto:info@devstudio.com" class="footer__contact"
+              <li class="footer-nav__mailto">
+                <a href="mailto:info@devstudio.com" class="footer-nav__contact"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-mailto">
-                <a href="tel:+380961111111" class="footer__contact"
+              <li class="footer-nav-mailto">
+                <a href="tel:+380961111111" class="footer-nav__contact"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="socials__block">
-          <h3 class="social__title">приєднуйтесь</h3>
-          <ul class="footer__socials">
+        <div class="socials">
+          <h3 class="socials__title">приєднуйтесь</h3>
+          <ul class="socials__list">
             <li class="socials__item">
               <a href="#" class="socials__link"
                 ><svg class="socials__icon" width="20" height="20">
@@ -467,12 +467,12 @@
             </li>
           </ul>
         </div>
-        <div class="footer__form">
-          <h3 class="footer__form__title">Підпишіться на розсилку</h3>
-          <form>
-            <input class="footer__input" type="text" placeholder="E-mail">
-            <button class="footer__button" type="submit">Підписатися 
-              <svg class="footer__send">
+        <div class="form">
+          <h3 class="form__title">Підпишіться на розсилку</h3>
+          <form class="form__block">
+            <input class="form__input" type="text" placeholder="E-mail">
+            <button class="form__button" type="submit">Підписатися 
+              <svg class="form__send">
                 <use href="./images/symbol-defs.svg#footer-send">
                 </use>
               </svg>
@@ -486,61 +486,61 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <p class="modal__description">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="form__hero">
-          <div class="form__field">
-            <label class="form__obiect" for="user-name">Ім'я</label>
+        <form class="modal__form">
+          <div class="modal__field">
+            <label class="modal__obiect" for="user-name">Ім'я</label>
             <input
-              class="form__input"
+              class="modal__input"
               type="text"
               name="user-name"
               id="user-name"
             />
-            <svg class="form__icon" width="18" height="18">
+            <svg class="modal__icon" width="18" height="18">
                     <use href="./images/symbol-defs.svg#modal-user">
                     </use>
                   </svg>
           </div>
 
-          <div class="form__field">
-            <label class="form__obiect" for="tel">Телефон</label>
-            <input class="form__input" type="tel" name="tel" id="tel" />
-            <svg class="form__icon" width="18" height="18">
+          <div class="modal__field">
+            <label class="modal__obiect" for="tel">Телефон</label>
+            <input class="modal__input" type="tel" name="tel" id="tel" />
+            <svg class="modal__icon" width="18" height="18">
                     <use href="./images/symbol-defs.svg#modal-tel">
                     </use>
                   </svg>
           </div>
 
-          <div class="form__field">
-            <label class="form__obiect" for="email">Пошта</label>
-            <input class="form__input" type="text" name="email" id="email" />
-            <svg class="form__icon" width="18" height="18">
+          <div class="modal__field">
+            <label class="modal__obiect" for="email">Пошта</label>
+            <input class="modal__input" type="text" name="email" id="email" />
+            <svg class="modal__icon" width="18" height="18">
                     <use href="./images/symbol-defs.svg#modal-email">
                     </use>
                   </svg>
           </div>
-          <label class="form__obiect"for="coment">Коментар</label>
+          <label class="modal__obiect"for="coment">Коментар</label>
           <textarea 
-            class="form__textarea"
+            class="modal__textarea"
             name="feedback"
             placeholder="Введіть текст" id="coment"
           ></textarea>
-          <div class="form__agreement">
-            <label class="check__label" for="user-check"> 
-               <input class="form__checkbox visually-hidden "  type="checkbox" name="user-check" id="user-check"/>
-               <span class="form__check">  
-                  <svg class="check__icon" width="11" height="8">
+          <div class="modal__agreement">
+            <label class="modal__label" for="user-check"> 
+               <input class="modal__checkbox visually-hidden "  type="checkbox" name="user-check" id="user-check"/>
+               <span class="modal__check">  
+                  <svg class="modal__ico" width="11" height="8">
                    <use href="./images/symbol-defs.svg#modal-check"></use>
                   </svg>
                 </span>
               <span> Погоджуюся з розсилкою та приймаю
               </span>
             </label>
-            <a class="form__link__decoration" href="#">Умови договору</a>
+            <a class="modal__text" href="#">Умови договору</a>
           </div>
-          <button class="form__button" type="submit">Отправить</button>
+          <button class="modal__button" type="submit">Отправить</button>
         </form>
-        <button class="button__close" data-modal-close>
-          <svg class="icon__close" width="18" height="18">
+        <button class="modal__close" data-modal-close>
+          <svg class="modal__close-icon" width="18" height="18">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>

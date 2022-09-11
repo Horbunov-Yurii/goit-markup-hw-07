@@ -1,6 +1,6 @@
 
 footer {
-  background-color: var(--background-color-footer);
+  background-color: $background-color-footer;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -9,9 +9,6 @@ footer .container {
   display: flex;
 }
 
-.socials__block {
-  margin-left: 70px;
-} 
 
 .logo__footer {
   font-family: 'Raleway';
@@ -19,137 +16,145 @@ footer .container {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--main-background-color);
+  color: $main-background-color;
 }
 
 .web__color {
-  color: var(--hover-color);
+  color: $hover-color;
 }
 
-.footer__nav {
+.footer-nav {
   margin-top: 20px;
-}
 
-.footer__mailto {
+  &__mailto {
   margin-top: 9px;
   margin-bottom: 9px;
 }
 
-.footer__mailto:last-child {
+  &__mailto:last-child {
   margin-bottom: 0;
 }
 
-.footer__contact {
+  &__contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  color: var(--footer-contact);
+  color: $footer-contact;
 }
 
-.footer__address {
+  &__address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  color: var(--main-background-color);
+  color: $main-background-color;
+}
 }
 
-.social__title {
+.socials {
+  margin-left: 70px;
+
+  
+  &__title {
   font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $main-background-color;
+  margin-bottom: 20px;
 }
 
-.footer__socials {
+  &__list {
   display: flex;
 }
 
-.socials__item {
+  &__item {
   margin-right: 10px;
 }
 
-.socials__item:last-child {
-margin-right: 0;
+  &__item:last-child {
+  margin-right: 0;
 }
 
-.socials__link {
- border-radius: 50%;
+  &__link {
+  border-radius: 50%;
   background-color:rgba(255, 255, 255, 0.1);
   padding: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #ffffff;
+  fill:  $main-background-color;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials__link:hover,
-.socials__link:focus {
-  background-color: #2196F3;
-  fill: #ffffff
+  &__link:hover,
+  &__link:focus {
+  background-color: $hover-color;
+  fill: $main-background-color;
 }
+} 
 
-.footer__form {
+
+
+.form {
   margin-left: 93px;
+
+  
+  &__block {
+  display: flex;
 }
 
-.footer__form form {
-  display: flex;;
+  &__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:  $main-background-color;
+  margin-bottom: 20px;
 }
 
-.footer__form__title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
+  &__input {
+  margin-right: 12px;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: $background-color-footer;
+  color: $main-background-color;
+  }
+
+  &__input:hover,
+  &__input:focus {
+  border-color: $hover-color;
 }
 
-.footer__input {
-margin-right: 12px;
-padding-left: 16px;
-width: 358px;
-height: 50px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: #2F303A;
-color: var(--main-background-color);
-}
-
-.footer__input:hover,
-.footer__input:focus {
-  border-color: var(--hover-color);
-}
-
-.footer__button {
-width: 200px;
-height: 50px;
-background-color: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
-color: #FFFFFF;
- display: flex;
+  &__button {
+  width: 200px;
+  height: 50px;
+  background-color: $hover-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: $main-background-color;
+  display: flex;
   align-items: center;
   justify-content: center;
-}
+  }
 
-.footer__send {
+  &__send {
   width: 24px;
   height: 24px;
-  background-color: var(--hover-color);
-  fill: var(--main-background-color);
+  background-color: $hover-color;
+  fill: $main-background-color;
   margin-left: 10px;
+}
 }

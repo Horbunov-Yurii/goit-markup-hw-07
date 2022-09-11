@@ -1,14 +1,11 @@
 
-.section__hero {
+.hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero-logo.jpg");
-}
 
-
-.title__hero {
-  
+  &__title {
   max-width: 696px;
   margin:0 auto ;
   font-weight: 900;
@@ -18,11 +15,11 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  color: var(--main-background-color);
+  color: $main-background-color;
 }
 
 
-.hero__button {
+  &__button {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -30,14 +27,18 @@
   letter-spacing: 0.06em;
   border: none;
   border-radius: 4px;
-  background-color: var(--hover-color);
-  color: var(--team-background-color);
+  background-color: $hover-color;
+  color: $team-background-color;
   padding: 10px 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: #188CE8;
+  &__button:hover,
+  &__button:focus {
+  background-color: $hover-color;
 }
+
+}
+
+
