@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -28,7 +28,11 @@
               <a href="../index.html" class="nav__link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="../peges/portfolio.html" class="nav__link nav__link-active">Портфоліо</a>
+              <a
+                href="../peges/portfolio.html"
+                class="nav__link nav__link-active"
+                >Портфоліо</a
+              >
             </li>
             <li class="nav__item">
               <a href="#contacts" class="nav__link">Контакти</a>
@@ -56,182 +60,213 @@
       </div>
     </header>
     <!--основной контент-->
-    <main class="main__section">
-      <div>
-        <section>
-        <div class="container">
-                  <h2 hidden>навигационные кнопки</h2>
-          <ul class="services">
-            <li class="services__item">
-              <button type="button" class="services__button">Усі</button>
-            </li>
-            <li class="services__item">
-              <button type="button" class="services__button">Веб-сайти</button>
-            </li>
-            <li class="services__item">
-              <button type="button" class="services__button">Додатки</button>
-            </li>
-            <li class="services__item">
-              <button type="button" class="services__button">Дизайн</button>
-            </li>
-            <li class="services__item">
-              <button type="button" class="services__button">Маркетинг</button>
-            </li>
-          </ul>
-          <ul class="collage">
-            <li class="collage__item">
-                <a class="collage__link" href="#">    
-                  <div class="card__wrap">
-                    <img
-                      src="../images/portfolio/kard1.jpg"
-                      alt="ноутбук"
-                      width="370" />
-                    <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                  </div>
-                  <div class="collage__frame">
-                    <h3 class="collage__title">Технокряк</h3>
-                    <p class="collage__description">Веб-сайт</p>
-                  </div>
-                </a>
-           
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="collage__wrap">
-                  <img
-                    src="../images/portfolio/kard2.jpg"
-                    alt="игра в баскетбол"
-                    width="370" />
-                    <p class="collage__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-             
+    <main class="portfolio">
+      <div class="container">
+        <h2 hidden>навигационные кнопки</h2>
+        <ul class="services">
+          <li class="services__item">
+            <button type="button" class="services__button">Усі</button>
+          </li>
+          <li class="services__item">
+            <button type="button" class="services__button">Веб-сайти</button>
+          </li>
+          <li class="services__item">
+            <button type="button" class="services__button">Додатки</button>
+          </li>
+          <li class="services__item">
+            <button type="button" class="services__button">Дизайн</button>
+          </li>
+          <li class="services__item">
+            <button type="button" class="services__button">Маркетинг</button>
+          </li>
+        </ul>
+        <ul class="collage">
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard1.jpg"
+                  alt="ноутбук"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+              <div class="collage__frame">
+                <h3 class="collage__title">Технокряк</h3>
+                <p class="collage__description">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard2.jpg"
+                  alt="игра в баскетбол"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
+              </div>
+
               <div class="collage__frame">
                 <h3 class="collage__title">Постер New Orlean vs Golden Star</h3>
                 <p class="collage__description">Дизайн</p>
               </div>
-              </a>
-             
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="card__wrap">
-                   <img
-                src="../images/portfolio/kard3.jpg"
-                alt="Ресторан Seafood"
-                width="370"/>
-                <p class="collage__text"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-              </a>
-              <div class="collage__frame">
-                <h3 class="collage__title">Ресторан Seafood</h3>
-                <p class="collage__description">Додаток</p>
+            </a>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard3.jpg"
+                  alt="Ресторан Seafood"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="collage__wrap">
-                     <img
-                src="../images/portfolio/kard4.jpg"
-                alt="наушники"
-                width="370"
-              />
-              <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-              </a>
-              <div class="collage__frame">
-                <h3 class="collage__title">Проєкт Prime</h3>
-                <p class="collage__description">Маркетинг</p>
+            </a>
+            <div class="collage__frame">
+              <h3 class="collage__title">Ресторан Seafood</h3>
+              <p class="collage__description">Додаток</p>
+            </div>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard4.jpg"
+                  alt="наушники"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="collage__wrap">
-                   <img
-                src="../images/portfolio/kard5.jpg"
-                alt="коробки"
-                width="370"
-              />
-              <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-              </a>
-              
-              <div class="collage__frame">
-                <h3 class="collage__title">Проєкт Boxes</h3>
-                <p class="collage__description">Додаток</p>
+            </a>
+            <div class="collage__frame">
+              <h3 class="collage__title">Проєкт Prime</h3>
+              <p class="collage__description">Маркетинг</p>
+            </div>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard5.jpg"
+                  alt="коробки"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="collage__wrap">
-                    <img
-                src="../images/portfolio/kard6.jpg"
-                alt="монитор"
-                width="370"
-              />
-              <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-               
-              </a>
-             
-              <div class="collage__frame">
-                <h3 class="collage__title">Inspiration has no Borders</h3>
-                <p class="collage__description">Веб-сайт</p>
+            </a>
+
+            <div class="collage__frame">
+              <h3 class="collage__title">Проєкт Boxes</h3>
+              <p class="collage__description">Додаток</p>
+            </div>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard6.jpg"
+                  alt="монитор"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="collage__wrap">
-                   <img
-                src="../images/portfolio/kard7.jpg"
-                alt="книга"
-                width="370"
-              />
-              <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-              </a>
-             
-              <div class="collage__frame">
-                <h3 class="collage__title">Видання Limited Edition</h3>
-                <p class="collage__description">Дизайн</p>
+            </a>
+
+            <div class="collage__frame">
+              <h3 class="collage__title">Inspiration has no Borders</h3>
+              <p class="collage__description">Веб-сайт</p>
+            </div>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard7.jpg"
+                  alt="книга"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="card__wrap">
-                    <img
-                src="../images/portfolio/kard8.jpg"
-                alt="бирка"
-                width="370"
-              />
-              <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-               
-              </a>
-             
-              <div class="collage__frame">
-                <h3 class="collage__title">Проєкт LAB</h3>
-                <p class="collage__description">Маркетинг</p>
+            </a>
+
+            <div class="collage__frame">
+              <h3 class="collage__title">Видання Limited Edition</h3>
+              <p class="collage__description">Дизайн</p>
+            </div>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard8.jpg"
+                  alt="бирка"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-            <li class="collage__item">
-              <a class="collage__link" href="#">
-                <div class="card__wrap">
-                   <img
-                src="../images/portfolio/kard9.jpg"
-                alt="работа за ноутбуком"
-                width="370"
-              />
-              <p class="collage__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                </div>
-              </a>
-              <div class="collage__frame">
-                <h3 class="collage__title">Growing Business</h3>
-                <p class="collage__description">Додаток</p>
+            </a>
+
+            <div class="collage__frame">
+              <h3 class="collage__title">Проєкт LAB</h3>
+              <p class="collage__description">Маркетинг</p>
+            </div>
+          </li>
+          <li class="collage__item">
+            <a class="collage__link" href="#">
+              <div class="collage__wrap">
+                <img
+                  src="../images/portfolio/kard9.jpg"
+                  alt="работа за ноутбуком"
+                  width="370"
+                />
+                <p class="collage__text">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем
+                  функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                  вичерпні відомості про компанію чи приватну особу.
+                </p>
               </div>
-            </li>
-          </ul>
-        </div>
-        </section>
+            </a>
+            <div class="collage__frame">
+              <h3 class="collage__title">Growing Business</h3>
+              <p class="collage__description">Додаток</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
     <!-- футер -->
@@ -300,11 +335,11 @@
         <div class="form">
           <h3 class="form__title">Підпишіться на розсилку</h3>
           <form class="form__block">
-            <input class="form__input" type="text" placeholder="E-mail">
-            <button class="form__button" type="submit">Підписатися 
+            <input class="form__input" type="text" placeholder="E-mail" />
+            <button class="form__button" type="submit">
+              Підписатися
               <svg class="form__send">
-                <use href="../images/symbol-defs.svg#footer-send">
-                </use>
+                <use href="../images/symbol-defs.svg#footer-send"></use>
               </svg>
             </button>
           </form>

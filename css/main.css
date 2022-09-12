@@ -849,7 +849,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.main__section {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -859,16 +859,13 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-
-__item {
+.services__item {
   margin-right: 8px;
 }
-
-.btn__item:last-child {
+.services__item:last-child {
   margin-right: 0;
 }
-
-.button__item {
+.services__button {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -883,39 +880,31 @@ __item {
   padding: 6px 22px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button__item:hover,
-.button__item:focus {
+.services__button:hover, .services__button:focus {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
 }
 
-.kard__list {
+.collage {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-
-.card__item {
+.collage__item {
   max-width: 370px;
 }
-
-.card__item:hover,
-.card__item:focus {
+.collage__item:hover, .collage__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.card__link:hover .card__text {
+.collage__link:hover .collage__text {
   transform: translateY(0);
 }
-
-.card__wrap {
+.collage__wrap {
   position: relative;
   overflow: hidden;
 }
-
-.card__text {
+.collage__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -932,23 +921,20 @@ __item {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.card__frame {
+.collage__frame {
   padding: 20px 24px;
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
-
-.card__title {
+.collage__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
-
-.card__description {
+.collage__description {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
